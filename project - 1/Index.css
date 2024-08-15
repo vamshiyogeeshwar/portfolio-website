@@ -1,0 +1,239 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Navbar Styles */
+#name {
+     background-color: #62959C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+#name > p{
+    color:white;
+    font-size: medium;
+    margin-left:50px ;
+}
+
+.navbar > ul{
+    display: flex;
+    gap: 15px;
+  }
+
+.navbar > ul > li > a{
+    text-decoration:none;
+    color:white;
+    font-size: medium;
+}
+
+#Attributes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Attributes li {
+    margin-bottom: 10px;
+}
+
+#Attributes a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Home Section Styles */
+
+
+#mypic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+/* About Section Styles */
+#about {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#about h4 {
+    color: #333;
+}
+
+/* Education Section Styles */
+#edu, #edu1 {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Skills Section Styles */
+#Skills {
+    padding: 10px;
+}
+
+#Skills h4 {
+    color: #333;
+ }
+
+/* Contact Section Styles */
+#get {
+    background-color: #333;
+    color: white;
+    text-align: lef;
+    padding: 20px 0;
+}
+
+.mydiv {
+    display:flex;
+    background-color: #606C5D;
+    padding: 10px;
+    border: 5px;
+    border-color: black;
+    align-items: center;
+}
+
+.mydiv >  h3 {
+text-align:top;
+text-transform: uppercase;
+font-size: 30px;
+color: #001C30;
+padding-bottom: 160px;
+padding-left: 55px;
+}
+
+.mydiv > p {
+  padding: 50px;
+  font-size: 20px;
+  margin-left: 60px;
+  line-height: 200%;
+  
+}
+
+.mydiv > div > img {
+  display: inline;
+}
+
+.mydiv1 {
+  background-color: #0802A3;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 10px;
+}
+
+.mydiv1 > h3 {
+  font-size: 30px;
+  color: #FFFFFF;
+  padding-left: 55px;
+  text-transform: uppercase;
+}
+
+.mydiv1 > p {
+  color:floralwhite;
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex > img{
+    border-radius: 10px;
+}
+
+.flex > p{
+    width: 1000px;
+    display: flex;
+        
+}
+
+.mydiv2{
+    padding: 10px;
+    font-size: medium; 
+    background-color: #3CCF4E;
+  }
+
+  .mydiv2 > h3 {
+    padding-left: 55px;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+.mydiv2 > div > img {
+  display:inline-flex;
+  align-items: first baseline;
+}
+
+.mydiv2 > div > span {
+  font-size: 20px;color: #952323;
+}
+
+
+.mydiv3{
+  padding: 10px;
+  background-color: #DDDDDD;
+}
+
+.mydiv3 > div > h4 {
+  color: #7D0633;
+  padding-left: 80px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.mydiv3 >div > ul > li {
+  font-size: medium;
+  padding-left: 40px;
+
+}
+
+.mydiv3 >  h3 {
+  padding-left: 55px;
+  font-size: 30px;
+  margin: auto;
+  color: #C51605;
+  text-transform: uppercase;
+
+}
+
+.mydiv4{
+background-color: #FFD89C;
+  padding: 20px;
+}
+
+.mydiv4 > h3 {
+  padding-left: 55px;
+  font-size: 30px;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+.mydiv4 > ul > li > p {
+  font-size: medium;
+  
+}
+
+.navbar > ul >  li{
+  list-style: none;
+}
